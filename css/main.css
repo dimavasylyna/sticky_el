@@ -1,0 +1,58 @@
+body, html {
+	padding: 0;
+	margin: 0;
+}
+body {
+  background-image: repeating-linear-gradient(0deg,
+      transparent,
+      transparent 0px,
+      rgba(0,0,0,0.2) 0px,
+      rgba(0,0,0,0.1) 90px);
+}
+.block {
+	min-height: 600px;
+	outline: 1px solid black;
+}
+
+.target {
+	outline: 2px solid green;
+	padding-top: 50px;
+}
+.target__list {
+	display: flex;
+	width: 100%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-top: 90px; */
+	justify-content: space-between;
+	/* transition: 0.3s; */
+}
+.target__item {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: rgba(200, 30, 100, 0.6);
+}
+
+
+
+
+
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 450px;
+}
+.fixed .target__item {
+	margin-top: 50px;
+}
+
+
+
+
+
+/* .some-class {
+	margin-top: 100px;
+} */
